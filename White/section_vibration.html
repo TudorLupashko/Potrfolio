@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Arboard Copy 20</title>
+</head>
+<body>
+    <header class = "header" >
+            <div class = "header_box">
+             <div class = "header_menu">
+               <a href = "#" class = "head_menu_item">Анализ состояний</a>
+               <a href = "#" class = "head_menu_item">Матрица рисков</a>
+               <a href = "#" class = "head_menu_item">Настройки</a> <br>
+               <a href = "#" class = "head_menu_italic">Архив</a>     
+             </div>
+              <div class="header_right"> 
+               <div class="header_log">PA</div>
+              </div>   
+            </div>
+    </header>
+   
+    <section class="section">
+        <div class="section_excel_pater">
+            <div class="botton_vibtation_events">
+                <div class="botton_vibration"> <span>Колебания</span></div>
+                <div class="botton_events_shadow">События</div>
+            </div>
+           <div class="patern_vibration_box">
+            <div class="patern_vibration"><span>Паттерн колебания параметров</span> 
+                <div class="patern_vibration_oval"> +</div> 
+            </div>
+          </div>
+            <div class="section_description_patern">
+               
+             <select class ="description_patern_haracter" name = "haracter_vibration">
+                <option class = "#" value = "everything"> Характеры колебаний </option>
+                <option value = "#">Критический предел</option>
+                <option value = "#">Дисбаланс изменений</option>
+                <option value = "#">Отклонение от уставки</option>
+                <option value = "#">Несовпадение периодов</option>
+                <option value = "#">Чередование фаз</option>
+                <option value = "#">Движение от текщего значения</option>
+             </select>
+               <select class="description_patern_chov">
+                <option class = "#" value = ""> ЦОВ </option>
+                <option value = "#">70</option>
+                <option value = "#">59</option>
+                <option value = "#">100</option>
+                <option value = "#">23</option>
+                <option value = "#">25</option>
+                <option value = "#">60</option>
+               </select>
+
+               <select class="description_patern_parametr">
+                <option class = "#" value = "#"> Параметр </option>
+                <option class = "#" value = "#">Вибр.XY,g</option>
+                <option class = "#" value = "#">Fвых,Гц</option>
+                <option class = "#" value = "#">Загр.ПЭД, %</option>
+                <option class = "#" value = "#"></option>
+                <option class = "#" value = "#"></option>
+                <option class = "#" value = "#">Рвх.эцн, кгс/см2</option>
+               </select>
+               <select class="description_patern_power">
+                <option class = "#" value = "#"> Мощность</option>
+                <option value = "#">50</option>
+                <option value = "#">Все</option>
+                <option value = "#"></option>
+                <option value = "#"></option>
+                <option value = "#"></option>
+                <option value = "#"></option>
+               </select>
+               <div class="description_patern_ditails"><span>Подробности</span></div>
+                        
+                       <div class="specification_subbox">
+                       <div class="specification_subbox_item">
+                        <div class="specification_hesitation_item">
+                            Критический предел
+                           </div>
+                        <div class="specification_chov_item">
+                            70
+                        </div>
+                        <div class="specification_parametr_item">
+                            Вибр.XY, g
+                        </div>
+                        <div class="specification_power_item">
+                            50
+                        </div>
+                        <div class="specification_details_item">
+                            ↑ Критический предел: 65
+                        </div>   
+                    </div>
+                        
+                    <div class="specification_subbox_item">
+                        <div class="specification_hesitation_item">
+                            Дисбаланс изменений
+                           </div>
+                        <div class="specification_chov_item">
+                            59
+                        </div>
+                        <div class="specification_parametr_item">
+                            Fвых, Гц
+                        </div>
+                        <div class="specification_power_item">
+                            Все
+                        </div>
+                        <div class="specification_details_item">
+                            ↓ Критический предел: 85
+                        </div>   
+                    </div>
+                
+                    <div class="specification_subbox_item">
+                        <div class="specification_hesitation_item">
+                            Отклонение от уставки
+                           </div>
+                        <div class="specification_chov_item">
+                            100
+                        </div>
+                        <div class="specification_parametr_item">
+                            Загр.ПЭД, %
+                        </div>
+                        <div class="specification_power_item">
+                            
+                        </div>
+                        <div class="specification_details_item">
+                            ⇅ 10%, У: Задержка срабатывания защиты от перегрузки сразу
+                        </div>   
+                    </div>
+
+                    <div class="specification_subbox_item">
+                        <div class="specification_hesitation_item">
+                            Несовпадение периодов
+                           </div>
+                        <div class="specification_chov_item">
+                            23
+                        </div>
+                        <div class="specification_parametr_item">
+                            
+                        </div>
+                        <div class="specification_power_item">
+                            
+                        </div>
+                        <div class="specification_details_item">
+                            после… 
+                        </div>   
+                    </div>
+                    
+                         <div class="specification_subbox_item">
+                            <div class="specification_hesitation_item">
+                                      Чередование фаз 
+                           </div>
+                        <div class="specification_chov_item">
+                            25
+                        </div>
+                        <div class="specification_parametr_item">
+                            
+                        </div>
+                        <div class="specification_power_item">
+                            
+                        </div>
+                        <div class="specification_details_item">
+                            3 п., 10%
+                        </div>   
+                    </div>
+                
+                    <div class="specification_subbox_item">
+                        <div class="specification_hesitation_item">
+                            Движение от текщего значения
+                           </div>
+                        <div class="specification_chov_item">
+                            60
+                        </div>
+                        <div class="specification_parametr_item">
+                            Pвх.эцн, кгс/см2
+                        </div>
+                        <div class="specification_power_item">
+                            
+                        </div>
+                        <div class="specification_details_item">
+                            ABC <br>
+                            <span class="specification_details_span">10% за 2 мин.</span>
+                        </div>   
+                    </div>
+                   
+                </div>
+
+                   
+                
+                
+                        
+
+
+
+                    
+    
+</body>
+</html>

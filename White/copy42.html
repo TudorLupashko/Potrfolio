@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Copy41</title>
+</head>
+<body>
+    <div class="section_layout">
+        <div class="container_layout">
+          <div class="container_layout_desc">
+            <div class="header_layout">
+                <span class="header_layout_titlle">Новый паттерн колебания</span>
+                <div class="layout_X">✕</div>
+            </div>
+            <div class="oscillation_pattern_layout">
+                <span class="layout_pattern_character">Характер колебания</span>
+                <select class="critical_limit_layout" name="critical">
+                  <option value="critical_limit">Отклонение от уставки</option>
+                </select>
+            </div>
+            <div class="deflection_delay_layout">
+                <span class="deflection_delay_titlle">Уставка</span>
+                <select class="deflection_delay_select" name="delay">
+                  <option value="deflection_delay_PAD">Задержка отключения ПЭД при срабатыв...</option>
+                </select>
+            </div>
+
+            <div class="parameter_layout">
+                <span class="parameter_layout_titlle" >Параметр</span>
+                <select class="vibration_layout" name="vibration" >
+                    <option value="vibr_XY">Вибр.XY,g</option>
+                </select>
+            </div>
+            <div class="parameter_layout">
+                <span class="deflection_layout_titlle">Отклонение</span>
+                <button type="button" class="yellow_square_layout">
+                    <div class="arrow_layout">⇅</div>
+                 </button>
+                 <button type="button" class="gray_square_layout">
+                    <div class="arrow_layout">↑</div>
+                </button>
+                <button type="button" class="gray_square_layout">
+                    <div class="arrow_layout">↓</div>
+                </button>
+                <input class="limit_value_box"></input>
+                <button type="button" class="yellow_square_layout">
+                    <div class="arrow_layout">%</div>
+                 </button>
+                 <button type="button" class="gray_square_layout">
+                    <div class="arrow_layout">ед.</div>
+                </button>
+            </div>
+            <div class="ciov_layout">
+                <span class="ciov_layout_titlle">ЦОВ</span>
+                <input class="limit_value_box"></input>
+            </div>
+            <div class="layout_text_box">
+                <div class="layout_text_desc">Что может произойти</div>
+                <input class="layout_big_box"></input>
+            </div>
+            <div class="layout_text_box">
+                <div class="layout_text_desc">Причина отклонений </div>
+                <input class="layout_big_box"></input>
+            </div>
+            <div class="layout_text_box">
+                <div class="layout_text_desc">Рекомендации</div>
+                <input class="layout_big_box"></input>
+            </div>
+            <div class="layout_section_button">
+            <button type="button" class="layout_save_button">Сохранить</button>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
