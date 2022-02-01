@@ -1,0 +1,74 @@
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+*{
+  padding:0;
+  margin: 0;
+  border: 0;
+  }
+
+  .section-cookie{
+      display: inline-block;
+      position:fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(0,0,0,0.8)
+  }
+
+            .section-cookie-img-pisition{
+                display: flex;
+                flex-direction: row-reverse;  
+            }
+
+                    .section-cookie-img{
+                        width: 30px;
+                    }
+
+                    .section-cookie-img:hover{
+                        opacity: .7;
+                    }
+
+            .section-cookie-file{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 500px;
+                background: #000;
+                color: #fff;
+                padding: 20px;
+                transform: translate(-50%, -50%);
+            }
+
+                        .section-cookie-file-text{
+                            margin-bottom: 10px;
+                        }
+
+            .section-cookie-button{
+                border: 1px solid grey;
+                padding: 8px;
+                color: green;
+                background: #000; 
+                width: 100px;
+                text-transform: uppercase;
+                text-align: center; 
+                transition: 0.1s;
+            }
+
+                        .section-cookie-subbutton{
+                            text-transform: uppercase;
+                            text-decoration: none;
+                            color: rgb(162,254,174);
+                            flex-direction: row-reverse;
+                        }
+
+                        .section-cookie-subbutton:hover{
+                            color: green;
+                        }
