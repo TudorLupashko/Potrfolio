@@ -1,0 +1,461 @@
+@import 'normalize.css';
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+*{
+  padding:0;
+  margin: 0;
+  border: 0;
+  }
+
+  body{
+      width: 1200;
+      height: 100vh;
+      font-size: 16px;
+      font-weight: 400;
+      color: #000;
+      font-family: 'Roboto',sans-serif;
+  }
+
+.section-header{
+    background: #E5E5E5;
+}
+
+                .section-iner{
+                   max-width: 1100px;
+                   padding-left: 15px;
+                   padding-right: 15px;
+                   margin: 0 auto;
+                }
+
+                .section-header-link{
+                    padding: 17px 0 17px;
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                    list-style: none;
+                    
+                }
+
+                .section-header-link-item{
+                    margin-left: 30px;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #333333;
+                    text-decoration: none;
+                }
+
+.section-beauty{
+  
+}
+
+     .section-beauty-iner{
+         display: flex;
+         justify-content: space-between;
+         align-items:center;
+     }
+
+
+          .section-beauty-titlle{
+            margin-right: 400px;
+            text-transform: uppercase;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 42px;
+            letter-spacing: 0.1em;
+            color: #66C05D;
+          }
+
+          .section-beauty-phone{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+          }
+
+          .section-beauty-button{  
+            font-size: 14px;     
+            background-color: transparent;
+            border: 2px solid #66C05D;
+            border-radius: 20px;
+            padding: 10px 15px;
+            transition: .2s;
+          }
+
+          .section-beauty-button:hover{
+            background:linear-gradient(to right, #a2feae, #eafc88)
+          }
+
+          .section-beauty-button-text{
+                text-align: center;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #000000;
+                text-decoration: none;
+          }
+
+          .border_beauty{
+              border: 1px solid #EFEFEF;
+          }
+
+     .section-subbeauty{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 30px 0 30px 0;
+        }
+
+      .section-subbeauty-item{
+        text-decoration: none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        list-style: none;
+        margin-left: 40px;
+      }
+
+.section_big_armchair{
+  background-image:url(../img/Rectangle2.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-position: center;
+}
+
+        .section_big_armchair_titlle{
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 48px;
+          line-height: 56px;
+          color: #FFFFFF;
+          margin-bottom: 50px;
+        }
+
+        .section_big_armchair_text{
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 20px;
+          color: #FFFFFF;
+          margin-bottom: 50px;
+          width: 40%;
+        }
+
+        .section_big_armchair_button{
+          background: linear-gradient(to right,#66C05D,#809);
+          border: 2px solid #FFFFFF;
+          border-radius: 40px;
+          border-radius: 20px;
+          padding: 10px 15px;  
+          transition: .2s;     
+        }
+
+        .section_big_armchair_button:hover{
+          background: linear-gradient(to right,#809,#66C05D);
+        }
+
+              .section_big_armchair_button_text{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #FFFFFF;
+                padding: 10px 15px;
+                margin: 0 auto;
+                text-decoration: none;
+              }
+
+              .section_big_armchair_button_text:hover{
+                
+              }
+
+.section_prace{
+  background: #EFEFEF;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0 140px 0;
+}
+
+     .section_prace_titlle{
+       margin-bottom: 40px;
+       background: #EFEFEF;
+     }
+
+            .section_prace_titlle_text{
+              font-family: Roboto;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 24px;
+              line-height: 28px;
+              color: #000000;
+            }
+
+      .section_prace_armchair{
+        display: flex;
+        margin-bottom: 100px;
+        justify-content: space-between;
+     }
+
+             .section_prace_armchair_item{
+               background: #FFFFFF;
+               padding-top: 25px;
+               padding-bottom: 25px;
+               margin-left: 30px;
+             }
+
+             .section_prace_armchair_item:first-child{
+              margin-left: 0;
+             }
+
+             .prace_armchair_item{
+               text-align: center;
+             }
+              
+             .section_prace_armchair_img{
+               margin-bottom: 20px;
+             }
+              
+             .section_prace_armchair_text{
+               
+              font-family: Roboto;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 14px;
+              line-height: 20px;
+              text-align: center;
+              color: #333333;
+              margin-bottom: 20px;
+             }
+
+             .section_prace_armchair_offer{
+                margin-bottom: 20px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 21px;
+                line-height: 25px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #000000;
+             }
+
+             .section_prace_armchair_button{
+              background: rgb(102,192,93, 1);
+              border-radius: 30px;
+              padding: 10px 15px;
+              text-align: center;
+             }
+
+             .section_prace_armchair_button:hover{
+              background:linear-gradient(to left, #9cad36,#f3a28e);
+             }
+
+             .section_prace_armchair_itrobutton{
+               text-decoration: none;
+              font-family: Roboto;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 14px;
+              line-height: 16px;
+              text-align: center;
+              letter-spacing: 0.05em;
+              color: #FFFFFF;
+             }
+
+.section_give_surpise{
+  display: flex;
+  justify-content: center;
+}
+
+    .section_give_surprise_box, .section_give_surprise_box-2{
+      background: #66C05D;
+      display: flex;
+      justify-content: space-between;
+      min-width: 540px ;
+    }
+
+    .section_give_surprise_box-2{
+      margin-left: 30px;
+    }
+
+        .section_give_first_box{
+          display: flex;
+          flex-direction: column;
+          padding: 35px 0 35px 0;
+          margin-left: 40px;
+        }
+
+               .section_give_bonus_titlle{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+                color: #FFFFFF;
+                padding-bottom: 25px;
+               }
+
+               .section_give_bonus_text{
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+                color: #FFFFFF;
+                padding-bottom: 25px;
+               }
+
+              .section_give_bonus_input{
+                background: #FFFFFF;
+                border-radius: 30px;
+                padding: 10px 15px;
+                border:none;
+              }
+
+                    .section_give_bonus_input_into{
+                      font-family: Roboto;
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 14px;
+                      line-height: 16px;
+                      text-align: center;
+                      color: #C4C4C4;
+                    }
+
+        .section_give_second_box, .section_give_second_box-2{
+          padding: 53px 0 53px 0;
+          margin-left: 65px;
+          margin-right: 45px;
+        }
+
+        .section_give_second_box-2{
+         opacity: 0;
+        }
+
+                .section_give_bonus_button{
+                  background: #66C05D;
+                  border: 2px solid #FFFFFF;
+                  box-sizing: border-box;
+                  border-radius: 30px;
+                  padding: 10px 15px;
+                }
+
+                    .section_give_bonus_itrobutton{
+                      font-family: Roboto;
+                      font-style: normal;
+                      font-weight: normal;
+                      font-size: 14px;
+                      line-height: 16px;
+                      text-align: center;
+                      color: #FFFFFF;
+                    }
+
+.section_footer_link_and_adress{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  background:#fff;
+  text-align: center;
+  padding: 40px 0 40px 0;
+  max-height: 120px ;
+}
+    
+         .section_footer_link{
+           display: flex;
+           margin-right: 20px;
+         }
+
+              .section_footer_link_item{
+               margin-right: 20px;
+               width: 45px;
+               height: 45px;
+               border: 2px solid #66C05D;
+               border-radius: 50%;
+              }
+
+              .section_footer_link-img{
+                position: relative;
+                padding-top: 11px;
+                cursor: pointer;
+              }
+
+              .section_footer_link-insta{
+                position: absolute;
+                top: 1903px;
+                left: 401px;
+                
+              }
+
+      .section_footer_adress{
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 16px;
+          color: #000000;
+      }
+
+      .section_footer_phone{
+        display: flex;
+        align-items:center;
+      }
+
+          .section-footer-phone-item{
+            margin-right: 50px;
+          }
+
+             .section_give_bonus_itrobutton{
+               text-decoration: none;
+             }
+
+.section_footer_info{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 25px 0 25px 0;
+}
+
+      .section_best_shop{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: #828282;
+      }
+
+    .section_footer_confidentiality{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      color: #828282;
+      text-decoration: none;
+    }
+
